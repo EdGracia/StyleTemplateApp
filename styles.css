@@ -1,0 +1,122 @@
+* {
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+header h1 {
+    font-size: 50px;
+    font-weight:200px;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+.container {
+    margin-top: 50px;
+    border: 5px dashed black;
+}
+
+.container h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* -------------colors section--------------------- */
+.colors li {
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    /* top: 50px; */
+    font-size: 30px; 
+}
+
+.customGray {
+    margin-left: 110px;
+    color: white;
+    background-color: #4C585B;
+}
+
+.customBlue {
+    margin-left: 110px;
+    color:white;
+    background-color: #7E99A3;
+}
+
+.customLBlue {
+    color:white;
+    background-color: #A5BFCC;
+    margin-top: 25px;
+    margin-left: 110px;
+}
+
+.customTan {
+    background-color: #F4EDD3;
+    margin-top: 25px;
+    margin-left: 110px;
+}
+
+/* ----------------fonts section--------------------- */
+
+.fonts li {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.fonts li li {
+    margin: 0px 0px;
+    font-size: 20px;
+}
+
+.normalWeight {
+    font-weight: normal;
+}
+
+.boldWeight {
+    font-weight: bold;
+}
+
+.italicWeight {
+    font-style: italic;
+}
+
+.TNR {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.TNR li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* --------------Text styles---------------------- */
+
+.textStyle h2 {
+    margin: 0px, 0px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.textStyle p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
